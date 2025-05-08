@@ -1,0 +1,7 @@
+argo-rollouts:
+  keepCRDs: false
+  controller:
+    replicas: 1
+  dashboard:
+    # -- Deploy dashboard server
+    enabled: true

@@ -1,0 +1,4 @@
+apiVersion: v2
+name: ubuntu
+description: A Helm chart for generic ubuntu pods
+version: 0.1.0

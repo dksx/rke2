@@ -20,7 +20,7 @@ spec:
    spec:
      containers:
      - name: rollouts-demo
-       image: nginxdemos/hello
+       image: nginxdemos/hello:plain-text
        imagePullPolicy: Always
        ports:
         - name: http

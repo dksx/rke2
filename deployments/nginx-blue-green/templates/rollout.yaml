@@ -3,13 +3,13 @@ kind: Rollout
 metadata:
  name: rollout-bluegreen
 spec:
- replicas: 2
+ replicas: 1
  strategy:
    blueGreen:
      activeService: rollout-bluegreen-active
      previewService: rollout-bluegreen-preview
      autoPromotionEnabled: false
- revisionHistoryLimit: 2
+ revisionHistoryLimit: 3
  selector:
    matchLabels:
      app: rollout-bluegreen

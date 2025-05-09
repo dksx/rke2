@@ -1,0 +1,4 @@
+apiVersion: v2
+name: Rollout Blue-Green
+description: A Helm chart for Argo rollouts Blue-Green deployment
+version: 1.0.0
